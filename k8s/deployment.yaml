@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lpg-nextjs
+  labels:
+    app: lpg-nextjs
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: lpg-nextjs
+  template:
+    metadata:
+      labels:
+        app: lpg-nextjs
+    spec:
+      containers:
+      - name: lpg-nextjs
+        image: IMAGE_PLACEHOLDER
+        ports:
+        - containerPort: 3000
+        env:
+        - name: DB_HOST
+          value: "lpg-mysql"
+        - name: DB_PORT
+          value: "3306"
+        - name: DB_USER
+          value: "root"
+        - name: DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: lpg-db-secret
+              key: db-password
+        - name: DB_NAME
+          value: "lpg_ai"
+        - name: ML_SERVER_URL
+          value: "http://lpg-ml-server:5001"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lpg-nextjs-service
+spec:
+  type: NodePort
+  selector:
+    app: lpg-nextjs
+  ports:
+  - port: 3000
+    targetPort: 3000
+    nodePort: 30000

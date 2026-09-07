@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lpg-ml-server
+  labels:
+    app: lpg-ml-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lpg-ml-server
+  template:
+    metadata:
+      labels:
+        app: lpg-ml-server
+    spec:
+      containers:
+      - name: lpg-ml-server
+        image: ML_IMAGE_PLACEHOLDER
+        ports:
+        - containerPort: 5001
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lpg-ml-server
+spec:
+  selector:
+    app: lpg-ml-server
+  ports:
+  - port: 5001
+    targetPort: 5001

@@ -1,0 +1,51 @@
+services:
+  # MySQL 데이터베이스
+  mysql:
+    image: mysql:8.0
+    container_name: lpg-mysql
+    environment:
+      # 실제 값은 .env 파일 또는 실행 환경에서 주입 (기본값은 로컬 개발용 placeholder)
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-changeme}
+      MYSQL_DATABASE: ${DB_NAME:-lpg_ai}
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Python ML 서버
+  ml-server:
+    build:
+      context: ./python
+      dockerfile: Dockerfile
+    container_name: lpg-ml-server
+    ports:
+      - "5001:5001"
+    depends_on:
+      - mysql
+
+  # Next.js 앱
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lpg-nextjs
+    ports:
+      - "3000:3000"
+    environment:
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_USER=${DB_USER:-root}
+      - DB_PASSWORD=${MYSQL_ROOT_PASSWORD:-changeme}
+      - DB_NAME=${DB_NAME:-lpg_ai}
+      - ML_SERVER_URL=http://ml-server:5001
+    depends_on:
+      - mysql
+      - ml-server
+
+volumes:
+  mysql_data:

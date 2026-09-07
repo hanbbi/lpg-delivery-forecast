@@ -1,0 +1,244 @@
+{
+  "rows": [
+    {
+      "cust_id": "6d67e8375b",
+      "cust_nm": "샘플거래처 01",
+      "device_id": "sample-dev-001",
+      "serial_no": "SN9734267",
+      "latitude": "38.002571",
+      "longitude": "127.853232"
+    },
+    {
+      "cust_id": "07b1311053",
+      "cust_nm": "샘플거래처 02",
+      "device_id": "sample-dev-002",
+      "serial_no": "SN7644923",
+      "latitude": "36.300666",
+      "longitude": "127.196519"
+    },
+    {
+      "cust_id": "236a57a1f8",
+      "cust_nm": "샘플거래처 03",
+      "device_id": "sample-dev-003",
+      "serial_no": "SN2636777",
+      "latitude": "33.415284",
+      "longitude": "126.638552"
+    },
+    {
+      "cust_id": "576a08b3bb",
+      "cust_nm": "샘플거래처 04",
+      "device_id": "sample-dev-004",
+      "serial_no": "SN2546957",
+      "latitude": "35.937525",
+      "longitude": "128.800137"
+    },
+    {
+      "cust_id": "2f95535a10",
+      "cust_nm": "샘플거래처 05",
+      "device_id": "sample-dev-005",
+      "serial_no": "SN2743641",
+      "latitude": "35.519722",
+      "longitude": "129.166145"
+    },
+    {
+      "cust_id": "aa52e9b81b",
+      "cust_nm": "샘플거래처 06",
+      "device_id": "sample-dev-006",
+      "serial_no": "SN5520548",
+      "latitude": "37.448992",
+      "longitude": "127.107841"
+    },
+    {
+      "cust_id": "b24bb828df",
+      "cust_nm": "샘플거래처 07",
+      "device_id": "sample-dev-007",
+      "serial_no": "SN1083472",
+      "latitude": "35.858975",
+      "longitude": "127.339222"
+    },
+    {
+      "cust_id": "20c05a3912",
+      "cust_nm": "샘플거래처 08",
+      "device_id": "sample-dev-008",
+      "serial_no": "SN2020641",
+      "latitude": "33.306921",
+      "longitude": "126.345615"
+    },
+    {
+      "cust_id": "f997fcfd4b",
+      "cust_nm": "샘플거래처 09",
+      "device_id": "sample-dev-009",
+      "serial_no": "SN3504581",
+      "latitude": "37.966099",
+      "longitude": "127.749221"
+    },
+    {
+      "cust_id": "f9b54d53f2",
+      "cust_nm": "샘플거래처 10",
+      "device_id": "sample-dev-010",
+      "serial_no": "SN2146444",
+      "latitude": "35.227066",
+      "longitude": "127.005613"
+    },
+    {
+      "cust_id": "d8ad91ff9e",
+      "cust_nm": "샘플거래처 11",
+      "device_id": "sample-dev-011",
+      "serial_no": "SN8770394",
+      "latitude": "34.737686",
+      "longitude": "126.453277"
+    },
+    {
+      "cust_id": "5abeba2527",
+      "cust_nm": "샘플거래처 12",
+      "device_id": "sample-dev-012",
+      "serial_no": "SN8298018",
+      "latitude": "35.283991",
+      "longitude": "128.844541"
+    },
+    {
+      "cust_id": "c6ec6791c5",
+      "cust_nm": "샘플거래처 13",
+      "device_id": "sample-dev-013",
+      "serial_no": "SN2826896",
+      "latitude": "33.632278",
+      "longitude": "126.596193"
+    },
+    {
+      "cust_id": "f29da942f9",
+      "cust_nm": "샘플거래처 14",
+      "device_id": "sample-dev-014",
+      "serial_no": "SN9235703",
+      "latitude": "36.670662",
+      "longitude": "127.505634"
+    },
+    {
+      "cust_id": "7baa4c9386",
+      "cust_nm": "샘플거래처 15",
+      "device_id": "sample-dev-015",
+      "serial_no": "SN8407781",
+      "latitude": "36.164662",
+      "longitude": "127.313624"
+    },
+    {
+      "cust_id": "3879b75a15",
+      "cust_nm": "샘플거래처 16",
+      "device_id": "sample-dev-016",
+      "serial_no": "SN3104116",
+      "latitude": "37.264137",
+      "longitude": "126.831782"
+    },
+    {
+      "cust_id": "a30a882ee0",
+      "cust_nm": "샘플거래처 17",
+      "device_id": "sample-dev-017",
+      "serial_no": "SN9668669",
+      "latitude": "35.010604",
+      "longitude": "126.403719"
+    },
+    {
+      "cust_id": "25fffd6f26",
+      "cust_nm": "샘플거래처 18",
+      "device_id": "sample-dev-018",
+      "serial_no": "SN9165047",
+      "latitude": "35.014549",
+      "longitude": "126.884350"
+    },
+    {
+      "cust_id": "19d88640c9",
+      "cust_nm": "샘플거래처 19",
+      "device_id": "sample-dev-019",
+      "serial_no": "SN6062484",
+      "latitude": "35.819891",
+      "longitude": "127.094982"
+    },
+    {
+      "cust_id": "86d2772e1c",
+      "cust_nm": "샘플거래처 20",
+      "device_id": "sample-dev-020",
+      "serial_no": "SN9695674",
+      "latitude": "36.691491",
+      "longitude": "126.793859"
+    },
+    {
+      "cust_id": "c56ed26f58",
+      "cust_nm": "샘플거래처 21",
+      "device_id": "sample-dev-021",
+      "serial_no": "SN2218646",
+      "latitude": "35.756583",
+      "longitude": "128.421523"
+    },
+    {
+      "cust_id": "dbba79f0b0",
+      "cust_nm": "샘플거래처 22",
+      "device_id": "sample-dev-022",
+      "serial_no": "SN3850808",
+      "latitude": "35.733652",
+      "longitude": "127.144032"
+    },
+    {
+      "cust_id": "0d9a0bd58e",
+      "cust_nm": "샘플거래처 23",
+      "device_id": "sample-dev-023",
+      "serial_no": "SN7096174",
+      "latitude": "35.261189",
+      "longitude": "129.152517"
+    },
+    {
+      "cust_id": "2b54445928",
+      "cust_nm": "샘플거래처 24",
+      "device_id": "sample-dev-024",
+      "serial_no": "SN5285165",
+      "latitude": "36.488356",
+      "longitude": "127.167554"
+    },
+    {
+      "cust_id": "07f5c1ea0d",
+      "cust_nm": "샘플거래처 25",
+      "device_id": "sample-dev-025",
+      "serial_no": "SN7300490",
+      "latitude": "36.503446",
+      "longitude": "126.775111"
+    },
+    {
+      "cust_id": "ee65c5b523",
+      "cust_nm": "샘플거래처 26",
+      "device_id": "sample-dev-026",
+      "serial_no": "SN2180710",
+      "latitude": "36.597433",
+      "longitude": "127.096240"
+    },
+    {
+      "cust_id": "8e5c118226",
+      "cust_nm": "샘플거래처 27",
+      "device_id": "sample-dev-027",
+      "serial_no": "SN1730582",
+      "latitude": "36.749243",
+      "longitude": "127.682815"
+    },
+    {
+      "cust_id": "6f8f160468",
+      "cust_nm": "샘플거래처 28",
+      "device_id": "sample-dev-028",
+      "serial_no": "SN7092580",
+      "latitude": "37.327712",
+      "longitude": "126.755921"
+    },
+    {
+      "cust_id": "45805fc93c",
+      "cust_nm": "샘플거래처 29",
+      "device_id": "sample-dev-029",
+      "serial_no": "SN2813416",
+      "latitude": "36.512579",
+      "longitude": "127.092034"
+    },
+    {
+      "cust_id": "24eac4bbfb",
+      "cust_nm": "샘플거래처 30",
+      "device_id": "sample-dev-030",
+      "serial_no": "SN3676618",
+      "latitude": "35.016067",
+      "longitude": "126.995602"
+    }
+  ]
+}

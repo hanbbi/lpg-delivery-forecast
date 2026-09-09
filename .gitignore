@@ -54,3 +54,4 @@ python/__pycache__/
 .env.local
 python/models/*.pkl
 *.xlsx
+CLAUDE.md
